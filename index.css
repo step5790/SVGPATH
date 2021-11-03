@@ -1,0 +1,34 @@
+:root {
+  width: 100vw;
+}
+
+body {
+  width: var(--width);
+  height: auto;
+  background-color: cornsilk;
+}
+
+#arrow {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.container {
+  offset-path: path("M -1 448 C 278 -130 624 669 756 51");
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+
+  50% {
+    offset-distance: 70%;
+  }
+
+  100% {
+    offset-distance: 100%;
+  }
+}
