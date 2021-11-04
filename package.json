@@ -16,18 +16,7 @@
     "vite": "^2.6.13"
   },
   "dependencies": {
-    "esbuild": "^0.13.12",
-    "esbuild-windows-64": "^0.13.12",
-    "function-bind": "^1.1.1",
-    "has": "^1.0.3",
-    "is-core-module": "^2.8.0",
-    "nanoid": "^3.1.30",
-    "path-parse": "^1.0.7",
-    "picocolors": "^1.0.0",
-    "postcss": "^8.3.11",
-    "resolve": "^1.20.0",
-    "rollup": "^2.59.0",
-    "source-map-js": "^0.6.2"
+    
   },
   "description": ""
 }
